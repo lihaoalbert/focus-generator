@@ -1,6 +1,6 @@
 = Fcus Generators
 
-A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.
+Based on nifty-generators by Ryanb. A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.
 
 
 == Setup
@@ -14,18 +14,6 @@ Add the gem to your Gemfile.
 Then you can run any of the included generators.
 
   rails g fcus:scaffold Recipe name:string index new
-
-=== Rails 2
-
-First install the gem.
-
-  gem install focus-generator
-
-The generators will be available in all Rails applications. To run the generator, go to your rails project directory and call it using the script/generate or script/destroy command.
-
-  script/generate fcus_scaffold Recipe name:string index new
-
-Note an underscore is used instead of a colon for the Rails 2 generators.
 
 
 == Included Generators
